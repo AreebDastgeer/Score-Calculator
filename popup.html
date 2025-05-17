@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score & SGPA Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Exam & SGPA Calculator</h1>
+
+    <section class="inputs">
+      <fieldset>
+        <legend>SGPA → Exam Score Range</legend>
+        <div class="field-row">
+          <label for="targetSgpa">Target SGPA (0–4):</label>
+          <input type="number" id="targetSgpa" step="0.01" min="0" max="4" value="3.3">
+        </div>
+        <div class="field-row">
+          <label for="currPts">Current Points (C):</label>
+          <input type="number" id="currPts" step="0.01" value="26.47">
+        </div>
+        <div class="field-row">
+          <label for="dispMax">Displayed Max (D):</label>
+          <input type="number" id="dispMax" step="0.01" value="36">
+        </div>
+        <div class="field-row">
+          <label for="realMaxMin">Pre-final Min (Pmin):</label>
+          <input type="number" id="realMaxMin" step="0.01" value="50">
+        </div>
+        <div class="field-row">
+          <label for="realMaxMax">Pre-final Max (Pmax):</label>
+          <input type="number" id="realMaxMax" step="0.01" value="55">
+        </div>
+        <div class="field-row">
+          <label for="examMaxMarks">Exam Max Marks (M):</label>
+          <input type="number" id="examMaxMarks" step="1" value="100">
+        </div>
+      </fieldset>
+
+      <button id="calcBtn">Calculate</button>
+    </section>
+
+    <section id="result" class="results">
+      <!-- Results appear here -->
+    </section>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

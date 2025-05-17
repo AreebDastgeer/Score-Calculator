@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Exam & SGPA Calculator",
+  "description": "Calculate needed exam scores for SGPA targets and direct absolutes.",
+  "version": "1.3",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "Score (16x16).png",
+      "48": "Score (48x48).png",
+      "128": "Score (128x128).png"
+    }
+  }
+}
