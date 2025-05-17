@@ -1,2 +1,6 @@
-# Score-Calculator
-Chrome Extension “Exam &amp; SGPA Calculator” – instantly computes the score you need on a scaled or 100-mark final to hit your target SGPA (0–4.0) or required absolute points.
+#Exam & SGPA Calculator
+A lightweight Chrome extension that helps students figure out exactly what they need to score on their final exams.
+
+Enter your current earned points, the portion displayed versus its true weight (min/max), and your SGPA goal (0–4). Get a range of required absolutes plus the equivalent percentage on the final exam.                                                            
+  
+Built with Manifest V3, plain HTML/CSS/JS—no external dependencies. Simply load unpacked in Chrome (or any Chromium-based browser) and calculate in one click!
